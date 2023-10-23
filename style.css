@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;  
+    /* border: 2px solid red;   */
+}
+.heading {
+    /* border: 2px solid red; */
+    letter-spacing: 2px;
+}
+.line {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 20%; */
+}
+.line hr {
+    width: 10%;
+    border: 2px solid orange;
+}
+#buttons {
+    margin-top: 20px;
+}
+.btn {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+}
+.card-section {
+    width: 100%;
+    height:100vh;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card-section .menu-section {
+    /* border: 2px solid purple; */
+    width: 35%;
+    height: 20%;
+    display: flex;
+}
+.menu-section img {
+    height: 100%;
+    width: 35%;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.menu-section .sub-menu {
+    display: flex;
+    flex-direction: column;
+}
+.sub-menu .title-price {
+    display: flex;
+    font-size: small;
+}
+.sub-menu p {
+    padding: 10px;
+    text-align: justify;
+    font-size: medium;
+}
+.title-price h2 {
+    margin-left: 10px;
+    display: inline;
+}
+.title-price .price {
+    margin-left: 140px;
+    color: orange;
+}
